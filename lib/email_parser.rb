@@ -11,7 +11,7 @@ class EmailParser
   end
   
   def parse
-    self.split(/, | /).uniq
+    emails.split(/, | /).uniq
   end
   # def self.parse(emails)
   #   emails = self.new
